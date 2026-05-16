@@ -53,7 +53,7 @@ def generate_response(prompt: str) -> str:
 
 
 def main() -> None:
-    st.title("🔮 Astrology Chatbot")
+    st.title("🔮 Supriya-Suvesh Astrology Chatbot")
     st.write(
         "Ask astrology questions, get horoscope-style answers, and explore personality insights based on your birth details."
     )
