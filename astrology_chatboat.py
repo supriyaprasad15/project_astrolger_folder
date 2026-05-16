@@ -8,7 +8,7 @@ st.set_page_config(
     layout="wide",
 )
 
-API_KEY = "AIzaSyCWaIwIC-KZ2gbHLH0K_4J00jXKxUllwBM"
+API_KEY = "AIzaSyCk4kBgR5jupDZXJKvP2UsmKnwXteKp0n8"
 
 if not API_KEY:
     st.title("🔮 Supriya-Suvesh Astrology Chatbot")
