@@ -8,7 +8,7 @@ st.set_page_config(
     layout="wide",
 )
 
-API_KEY = os.getenv("GENAI_API_KEY") or st.secrets.get("GENAI_API_KEY")
+API_KEY = "AIzaSyCWaIwIC-KZ2gbHLH0K_4J00jXKxUllwBM"
 
 if not API_KEY:
     st.title("🔮 Astrology Chatbot")
