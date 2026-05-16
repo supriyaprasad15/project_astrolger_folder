@@ -3,7 +3,7 @@ import streamlit as st
 from google import genai
 
 st.set_page_config(
-    page_title="Supriya-Suvesh Astrology Chatbot",
+    page_title="Supriya Astrology Chatbot",
     page_icon="🔮",
     layout="wide",
 )
@@ -11,7 +11,7 @@ st.set_page_config(
 API_KEY = "AIzaSyCk4kBgR5jupDZXJKvP2UsmKnwXteKp0n8"
 
 if not API_KEY:
-    st.title("🔮 Supriya-Suvesh Astrology Chatbot")
+    st.title("🔮 Supriya Astrology Chatbot")
     st.error(
         "Missing Google GenAI API key.\n"
         "Set `GENAI_API_KEY` as an environment variable locally or add it to Streamlit secrets."
@@ -53,7 +53,7 @@ def generate_response(prompt: str) -> str:
 
 
 def main() -> None:
-    st.title("🔮 Supriya-Suvesh Astrology Chatbot")
+    st.title("🔮 Supriya Astrology Chatbot")
     st.write(
         "Ask astrology questions, get horoscope-style answers, and explore personality insights based on your birth details."
     )
